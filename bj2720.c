@@ -12,6 +12,6 @@ int main()
         printf("%d ", b / q);
         printf("%d ", b % q / d);
         printf("%d ", b % q % d / n);
-        printf("%d\n", b % q % d % n / p);
+        printf("%d\n", b % q % d % n / p); // 개행 넣어줘야합니다.
     }
 }
